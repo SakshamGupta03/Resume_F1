@@ -1,13 +1,4 @@
-﻿export interface Team {
-  id: string;
-  name: string;
-  color: string;
-  glow: string;
-  carTopView: string;
-  logo: string;
-}
-
-export const f1Teams: Team[] = [
+export const f1Teams = [
   {
     id: 'ferrari',
     name: 'Scuderia Ferrari',
@@ -50,21 +41,7 @@ export const f1Teams: Team[] = [
   }
 ];
 
-export interface ResumeData {
-  fullName: string;
-  dob: string;
-  gender: string;
-  email: string;
-  phone: string;
-  address: string;
-  education: string;
-  skills: string;
-  summary: string;
-  achievements: string;
-  experience: string;
-}
-
-export const initialResumeData: ResumeData = {
+export const initialResumeData = {
   fullName: 'Saksham Gupta',
   dob: '2001-05-15',
   gender: 'Male',
